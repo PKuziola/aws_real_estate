@@ -6,6 +6,8 @@ from .real_estate_prices.spiders.kolej_na_19 import KolejNa19Spider
 from .real_estate_prices.spiders.modern_mokotow import ModernMokotowSpider 
 from .real_estate_prices.spiders.stacja_wola import StacjaWolaSpider 
 from .real_estate_prices.spiders.zelazna_54 import Zelazna54Spider
+from .real_estate_prices.spiders.murapol_urcity import MurapolUrcitySpider
+from .real_estate_prices.spiders.dom_hygge_twin import DomHyggeTwinSpider
 
 def real_estate_scraper(event, contxt):
     
@@ -18,5 +20,7 @@ def real_estate_scraper(event, contxt):
     process.crawl(ModernMokotowSpider)
     process.crawl(StacjaWolaSpider)
     process.crawl(Zelazna54Spider)
+    process.crawl(MurapolUrcitySpider)
+    process.crawl(DomHyggeTwinSpider)
 
     process.start()

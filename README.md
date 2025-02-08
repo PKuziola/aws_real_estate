@@ -42,6 +42,8 @@ The collected data will be stored in Google BigQuery, visualized for insights, a
 |  2  | Modern Mokotów   |Archicom  | Warszawa| Mokotów   | 01-02-2025   |   |https://modernmokotow.archicom.pl/    |
 |  3  | Stacja Wola   |Archicom  | Warszawa| Wola   | 01-02-2025   |   |https://stacjawola.archicom.pl/    |
 |  4  | Żelazna 54   |Matexi Polska  | Warszawa| Wola   | 01-02-2025   |   |https://matexipolska.pl/warszawa/zelazna-54    |
+|  5  | Murapol Urcity   |Murapol  | Warszawa| Ursus   | 09-02-2025   |   |https://murapol.pl/oferta/warszawa/murapol-urcity    |
+|  6  | Dom Hygge Twin   |Dynamic Development  | Warszawa| Mokotów   | 09-02-2025   |   |https://hyggemokotow.pl/    |
 
 The Start Date and End Date refer to the period during which the data was collected, not the actual start or end of the sales process.
 
