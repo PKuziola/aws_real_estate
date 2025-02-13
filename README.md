@@ -38,12 +38,14 @@ The collected data will be stored in Google BigQuery, visualized for insights, a
 
 | ID  | Name                             | Developer Name | City | District | Start Date* | End Date* | url |
 |-----|----------------------------------|----------------|------|----------|-------------|-----------|-----|
-|  1  | Kolej na 19   |Polski Holding Nieruchomości   | Warszawa| Wola   | 01-02-2025   |   |https://kolejna19.pl/    |
-|  2  | Modern Mokotów   |Archicom  | Warszawa| Mokotów   | 01-02-2025   |   |https://modernmokotow.archicom.pl/    |
-|  3  | Stacja Wola   |Archicom  | Warszawa| Wola   | 01-02-2025   |   |https://stacjawola.archicom.pl/    |
-|  4  | Żelazna 54   |Matexi Polska  | Warszawa| Wola   | 01-02-2025   |   |https://matexipolska.pl/warszawa/zelazna-54    |
-|  5  | Murapol Urcity   |Murapol  | Warszawa| Ursus   | 09-02-2025   |   |https://murapol.pl/oferta/warszawa/murapol-urcity    |
-|  6  | Dom Hygge Twin   |Dynamic Development  | Warszawa| Mokotów   | 09-02-2025   |   |https://hyggemokotow.pl/    |
+|  1  | Kolej na 19   |Polski Holding Nieruchomości   | Warszawa| Wola   | 01-02-2025   |   |[Kolej na 19](https://kolejna19.pl/)   |
+|  2  | Modern Mokotów   |Archicom  | Warszawa| Mokotów   | 01-02-2025   |   |[Modern Mokotów](https://modernmokotow.archicom.pl/)    |
+|  3  | Stacja Wola   |Archicom  | Warszawa| Wola   | 01-02-2025   |   |[Stacja Wola](https://stacjawola.archicom.pl/)    |
+|  4  | Żelazna 54   |Matexi Polska  | Warszawa| Wola   | 01-02-2025   |   |[Żelazna 54](https://matexipolska.pl/warszawa/zelazna-54)    |
+|  5  | Murapol Urcity   |Murapol  | Warszawa| Ursus   | 09-02-2025   |   |[Murapol Urcity](https://murapol.pl/oferta/warszawa/murapol-urcity)    |
+|  6  | Dom Hygge Twin   |Dynamic Development  | Warszawa| Mokotów   | 09-02-2025   |   |[Dom Hygge Twin](https://hyggemokotow.pl/)    |
+|  7  | Oval Sky   |Dekpol  | Warszawa| Wola   | 14-02-2025   |   |[Oval Sky](https://dekpoldeweloper.pl/portfolio/ovalsky-warszawa-ul-pradzynskiego/?)   |
+|  8  | Stilla   |Skanska  | Warszawa| Mokotów   | 14-02-2025   |   |[Stilla](https://mieszkaj.skanska.pl/nasze-projekty/stilla/)    |
 
 The Start Date and End Date refer to the period during which the data was collected, not the actual start or end of the sales process.
 
@@ -143,10 +145,14 @@ Cooming soon
 │             ├── settings.py
 │             └── spiders
 │                 ├── __init__.py
+│                 ├── dom_hygge_twin.py
 │                 ├── kolej_na_19.py
 │                 ├── modern_mokotow.py
+│                 ├── murapol_urcity.py
+│                 ├── oval_sky.py
 │                 ├── stacja_wola.py
-│                 └── zelazna_54.py
+│                 ├── stilla.py
+│                 └── zelazna_54.py                
 ├── images
 ├── .gitignore 
 ├── README.md 
