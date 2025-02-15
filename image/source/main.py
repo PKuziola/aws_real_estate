@@ -10,6 +10,9 @@ from .real_estate_prices.spiders.murapol_urcity import MurapolUrcitySpider
 from .real_estate_prices.spiders.dom_hygge_twin import DomHyggeTwinSpider
 from .real_estate_prices.spiders.oval_sky import OvalSkySpider
 from .real_estate_prices.spiders.stilla import StillaSpider
+from .real_estate_prices.spiders.chmielna_duo import ChmielnaDuoSpider
+from .real_estate_prices.spiders.park_skandynawia import ParkSkandynawiaSpider
+from .real_estate_prices.spiders.sadyba_spot import SadybaSpotSpider
 
 def real_estate_scraper(event, contxt):
     
@@ -25,6 +28,9 @@ def real_estate_scraper(event, contxt):
     process.crawl(MurapolUrcitySpider)
     process.crawl(DomHyggeTwinSpider)
     process.crawl(OvalSkySpider)
-    process.crawl(StillaSpider)    
+    process.crawl(StillaSpider)
+    process.crawl(ChmielnaDuoSpider)
+    process.crawl(ParkSkandynawiaSpider) 
+    process.crawl(SadybaSpotSpider)     
 
     process.start()
