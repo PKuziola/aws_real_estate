@@ -26,8 +26,8 @@ class StillaSpider(scrapy.Spider):
 
             loader.add_value('flat_name', apartment['name'])
             loader.add_value('flat_area', apartment['area'])
-            loader.add_value('flat_area', str(apartment['rooms']))
-            loader.add_value('flat_area', str(apartment['floor']))
+            loader.add_value('flat_rooms', str(apartment['rooms']))
+            loader.add_value('flat_floor', str(apartment['floor']))
             loader.add_value('flat_details_url', apartment['webUrl'])
             loader.add_value('flat_available', 1 if apartment['status'] == 'available' else 0)
             loader.add_value('flat_promotion', 'N/A')
