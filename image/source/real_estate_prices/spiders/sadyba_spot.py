@@ -39,8 +39,10 @@ class SadybaSpotSpider(scrapy.Spider):
                 if apartment["promotionpriceforapartment"] == 0:
                     loader.add_value("flat_price", apartment["priceforapartment"])
                     loader.add_value("flat_price_per_sqm", apartment["pricepersqm"])
+                    loader.add_value("flat_promotion", 0)
                 else:
                     loader.add_value("flat_price", apartment["promotionpriceforapartment"])
                     loader.add_value("flat_price_per_sqm", apartment["promotionpriceforapartment"]/apartment["propertysize"])
+                    loader.add_value("flat_promotion", 1)
 
             yield loader.load_item()
