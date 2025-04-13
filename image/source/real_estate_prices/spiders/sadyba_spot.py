@@ -29,8 +29,8 @@ class SadybaSpotSpider(scrapy.Spider):
 
                 loader.add_value("flat_name", apartment["name"])
                 loader.add_value("flat_area", str(apartment["propertysize"]))
-                loader.add_value("flat_rooms", apartment["numberofrooms"])
-                loader.add_value("flat_floor", apartment["floor"])
+                loader.add_value("flat_rooms", str(apartment["numberofrooms"]))
+                loader.add_value("flat_floor", str(apartment["floor"]))
                 loader.add_value("flat_details_url", "N/A")
                 loader.add_value(
                     "flat_available", 1 if apartment["status"] == "Wolne" else 0
