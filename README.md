@@ -49,6 +49,7 @@ The collected data will be stored in Google BigQuery, visualized for insights, a
 |  9  | Chmielna Duo   |bpi  | Warszawa| Śródmieście   | 15-02-2025   |   |[Chmielna Duo](https://chmielnaduo.pl/)    |
 |  10 | Park Skandynawia  |Skanska  | Warszawa| Praga-Południe   | 15-02-2025   |   |[Park Skandynawia](https://mieszkaj.skanska.pl/nasze-projekty/park-skandynawia/)    |
 |  11 | Sadyba Spot   |unidevelopment  | Warszawa| Mokotów   | 15-02-2025   |   |[Sadyba Spot](https://sadybaspot.pl/)    |
+|  12 | Bukowinska Mokotow   |Matexi Polska  | Warszawa| Mokotów   | 19-06-2025   |   |[Bukowińska Mokotów](https://matexipolska.pl/warszawa/bukowinska-mokotow)    |
 
 The Start Date and End Date refer to the period during which the data was collected, not the actual start or end of the sales process.
 
@@ -148,6 +149,7 @@ Cooming soon
 │             ├── settings.py
 │             └── spiders
 │                 ├── __init__.py
+│                 ├── bukowinska_mokotow.py
 │                 ├── chmielna_duo.py
 │                 ├── dom_hygge_twin.py
 │                 ├── kolej_na_19.py
