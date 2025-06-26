@@ -51,6 +51,7 @@ The collected data will be stored in Google BigQuery, visualized for insights, a
 |  11 | Sadyba Spot   |unidevelopment  | Warszawa| Mokotów   | 15-02-2025   |   |[Sadyba Spot](https://sadybaspot.pl/)    |
 |  12 | Bukowinska Mokotow   |Matexi Polska  | Warszawa| Mokotów   | 19-06-2025   |   |[Bukowińska Mokotów](https://matexipolska.pl/warszawa/bukowinska-mokotow)    |
 |  13 | Hi Mokotow   |Cordia  | Warszawa| Mokotów   | 25-06-2025   |   |[Bukowińska Mokotów](https://matexipolska.pl/warszawa/bukowinska-mokotow)    |
+|  14 | Łopuszańska 47   |SGI  | Warszawa| Włochy   | 26-06-2025   |   |[Łopuszańska 47](https://www.sgi.pl/warszawa/lopuszanska-47/)    |
 
 The Start Date and End Date refer to the period during which the data was collected, not the actual start or end of the sales process.
 
@@ -155,6 +156,7 @@ Cooming soon
 │                 ├── dom_hygge_twin.py
 │                 ├── hi_mokotow.py
 │                 ├── kolej_na_19.py
+│                 ├── lopuszanska_47.py
 │                 ├── modern_mokotow.py
 │                 ├── murapol_urcity.py
 │                 ├── oval_sky.py
