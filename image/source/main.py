@@ -15,6 +15,8 @@ from .real_estate_prices.spiders.park_skandynawia import ParkSkandynawiaSpider
 from .real_estate_prices.spiders.sadyba_spot import SadybaSpotSpider
 from .real_estate_prices.spiders.bukowinska_mokotow import BukowinskaMokotowSpider
 from .real_estate_prices.spiders.hi_mokotow import HiMokotowSpider
+from .real_estate_prices.spiders.lopuszanska_47 import Lopuszanska47Spider
+
 
 def real_estate_scraper(event, contxt):
     
@@ -35,6 +37,7 @@ def real_estate_scraper(event, contxt):
     process.crawl(ParkSkandynawiaSpider) 
     process.crawl(SadybaSpotSpider)   
     process.crawl(BukowinskaMokotowSpider)
-    process.crawl(HiMokotowSpider)  
+    process.crawl(HiMokotowSpider)
+    process.crawl(Lopuszanska47Spider)  
 
     process.start()
