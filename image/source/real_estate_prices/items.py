@@ -16,6 +16,8 @@ def fix_price(value):
     return float(int(value.replace('.','')))
 
 def convert_flat_area_float(value):
+    if isinstance(value, float):
+        return value 
     return float(value.replace(',', '.'))
 
 def adjust_flat_promotion(value):

@@ -52,6 +52,7 @@ The collected data will be stored in Google BigQuery, visualized for insights, a
 |  12 | Bukowinska Mokotow   |Matexi Polska  | Warszawa| Mokotów   | 19-06-2025   |   |[Bukowińska Mokotów](https://matexipolska.pl/warszawa/bukowinska-mokotow)    |
 |  13 | Hi Mokotow   |Cordia  | Warszawa| Mokotów   | 25-06-2025   |   |[Bukowińska Mokotów](https://matexipolska.pl/warszawa/bukowinska-mokotow)    |
 |  14 | Łopuszańska 47   |SGI  | Warszawa| Włochy   | 26-06-2025   |   |[Łopuszańska 47](https://www.sgi.pl/warszawa/lopuszanska-47/)    |
+|  15 | Senza  |Marvipol | Warszawa| Białoęka   | 28-06-2025   |   |[Senza](https://marvipol.pl/osiedle-senza/)    |
 
 The Start Date and End Date refer to the period during which the data was collected, not the actual start or end of the sales process.
 
@@ -162,6 +163,7 @@ Cooming soon
 │                 ├── oval_sky.py
 │                 ├── park_skandynawia.py
 │                 ├── sadyba_spot.py
+│                 ├── senza.py
 │                 ├── stacja_wola.py
 │                 ├── stilla.py
 │                 └── zelazna_54.py                
