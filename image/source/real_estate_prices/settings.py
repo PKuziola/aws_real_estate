@@ -62,9 +62,9 @@ SPIDER_MIDDLEWARES = {
 
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
-#ITEM_PIPELINES = {
-#    "real_estate_prices.pipelines.SaveToGBQPipeline": 300,
-#}
+ITEM_PIPELINES = {
+    "real_estate_prices.pipelines.SaveToGBQPipeline": 300,
+}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
