@@ -17,7 +17,8 @@ from .real_estate_prices.spiders.bukowinska_mokotow import BukowinskaMokotowSpid
 from .real_estate_prices.spiders.hi_mokotow import HiMokotowSpider
 from .real_estate_prices.spiders.lopuszanska_47 import Lopuszanska47Spider
 from .real_estate_prices.spiders.senza import SenzaSpider
-from .real_estate_prices.spiders.sengera import SengeraSpider  # Assuming SengeraSpider is defined in the same module
+from .real_estate_prices.spiders.sengera import SengeraSpider
+from .real_estate_prices.spiders.xyz_place import XYZSpider  # Assuming SengeraSpider is defined in the same module
 
 def real_estate_scraper(event, contxt):
     
@@ -41,6 +42,7 @@ def real_estate_scraper(event, contxt):
     process.crawl(HiMokotowSpider)
     process.crawl(Lopuszanska47Spider)
     process.crawl(SenzaSpider)  
-    process.crawl(SengeraSpider)  # Assuming SengeraSpider is defined in the same module
+    process.crawl(SengeraSpider)    # Assuming SengeraSpider is defined in the same module
+    process.crawl(XYZSpider)    # Assuming XYZSpider is defined in the same module
 
     process.start()
