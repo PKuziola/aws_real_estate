@@ -55,6 +55,7 @@ The collected data will be stored in Google BigQuery, visualized for insights, a
 |  15 | Senza  |Marvipol | Warszawa| Białoęka   | 28-06-2025   |   |[Senza](https://marvipol.pl/osiedle-senza/)    |
 |  16 | Sengera  |Marvipol | Warszawa| Ursynów   | 02-07-2025   |   |[Sengera](https://marvipol.pl/sengera-1/)    |
 |  17 | XYZ Place  |Matexi Polska | Warszawa| Włochy   | 07-07-2025   |   |[XYZ-Place](https://matexipolska.pl/warszawa/xyz-place)    |
+|  18 | Zakątek Harmonia  |Atal | Warszawa| Białołęka   | 09-08-2025   |   |[Zakątek Harmonia](https://zakatekharmonia.pl/)    |
 
 The Start Date and End Date refer to the period during which the data was collected, not the actual start or end of the sales process.
 
@@ -170,6 +171,7 @@ Cooming soon
 │                 ├── stacja_wola.py
 │                 ├── stilla.py
 │                 ├── xyz_place.py
+│                 ├── zakatek_harmonia.py
 │                 └── zelazna_54.py                
 ├── images
 ├── .gitignore 
