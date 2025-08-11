@@ -20,6 +20,7 @@ from .real_estate_prices.spiders.senza import SenzaSpider
 from .real_estate_prices.spiders.sengera import SengeraSpider
 from .real_estate_prices.spiders.xyz_place import XYZSpider
 from .real_estate_prices.spiders.zakatek_harmonia import ZakatekHarmoniaSpider
+from .real_estate_prices.spiders.osiedle_poematu import OsiedlePoematuSpider
 
 def real_estate_scraper(event, contxt):
     
@@ -45,6 +46,7 @@ def real_estate_scraper(event, contxt):
     process.crawl(SenzaSpider)  
     process.crawl(SengeraSpider)    
     process.crawl(XYZSpider)
-    process.crawl(ZakatekHarmoniaSpider)       
+    process.crawl(ZakatekHarmoniaSpider)
+    process.crawl(OsiedlePoematuSpider)       
 
     process.start()
