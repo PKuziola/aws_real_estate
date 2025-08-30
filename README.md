@@ -38,19 +38,19 @@ The collected data will be stored in Google BigQuery, visualized for insights, a
 
 | ID  | Name                             | Developer Name | City | District | Start Date* | End Date* | url |
 |-----|----------------------------------|----------------|------|----------|-------------|-----------|-----|
-|  1  | Kolej na 19   |Polski Holding Nieruchomości   | Warszawa| Wola   | 01-02-2025   |   |[Kolej na 19](https://kolejna19.pl/)   |
+|  1  | Kolej na 19   |Polski Holding Nieruchomości   | Warszawa| Wola   | 01-02-2025   |  10-03-2025* |[Kolej na 19](https://kolejna19.pl/)   |
 |  2  | Modern Mokotów   |Archicom  | Warszawa| Mokotów   | 01-02-2025   |   |[Modern Mokotów](https://modernmokotow.archicom.pl/)    |
 |  3  | Stacja Wola   |Archicom  | Warszawa| Wola   | 01-02-2025   |   |[Stacja Wola](https://stacjawola.archicom.pl/)    |
 |  4  | Żelazna 54   |Matexi Polska  | Warszawa| Wola   | 01-02-2025   |   |[Żelazna 54](https://matexipolska.pl/warszawa/zelazna-54)    |
 |  5  | Murapol Urcity   |Murapol  | Warszawa| Ursus   | 09-02-2025   |   |[Murapol Urcity](https://murapol.pl/oferta/warszawa/murapol-urcity)    |
 |  6  | Dom Hygge Twin   |Dynamic Development  | Warszawa| Mokotów   | 09-02-2025   |   |[Dom Hygge Twin](https://hyggemokotow.pl/)    |
 |  7  | Oval Sky   |Dekpol  | Warszawa| Wola   | 14-02-2025   |   |[Oval Sky](https://dekpoldeweloper.pl/portfolio/ovalsky-warszawa-ul-pradzynskiego/?)   |
-|  8  | Stilla   |Skanska  | Warszawa| Mokotów   | 14-02-2025   |   |[Stilla](https://mieszkaj.skanska.pl/nasze-projekty/stilla/)    |
+|  8  | Stilla   |Skanska  | Warszawa| Mokotów   | 14-02-2025   | 24-02-2025*  |[Stilla](https://mieszkaj.skanska.pl/nasze-projekty/stilla/)    |
 |  9  | Chmielna Duo   |bpi  | Warszawa| Śródmieście   | 15-02-2025   |   |[Chmielna Duo](https://chmielnaduo.pl/)    |
 |  10 | Park Skandynawia  |Skanska  | Warszawa| Praga-Południe   | 15-02-2025   |   |[Park Skandynawia](https://mieszkaj.skanska.pl/nasze-projekty/park-skandynawia/)    |
 |  11 | Sadyba Spot   |unidevelopment  | Warszawa| Mokotów   | 15-02-2025   |   |[Sadyba Spot](https://sadybaspot.pl/)    |
 |  12 | Bukowinska Mokotow   |Matexi Polska  | Warszawa| Mokotów   | 19-06-2025   |   |[Bukowińska Mokotów](https://matexipolska.pl/warszawa/bukowinska-mokotow)    |
-|  13 | Hi Mokotow   |Cordia  | Warszawa| Mokotów   | 25-06-2025   |   |[Bukowińska Mokotów](https://matexipolska.pl/warszawa/bukowinska-mokotow)    |
+|  13 | Hi Mokotow   |Cordia  | Warszawa| Mokotów   | 25-06-2025   |   |[Bukowińska Mokotów](https://cordiapolska.pl/inwestycje/hi-mokotow/)    |
 |  14 | Łopuszańska 47   |SGI  | Warszawa| Włochy   | 26-06-2025   |   |[Łopuszańska 47](https://www.sgi.pl/warszawa/lopuszanska-47/)    |
 |  15 | Senza  |Marvipol | Warszawa| Białoęka   | 28-06-2025   |   |[Senza](https://marvipol.pl/osiedle-senza/)    |
 |  16 | Sengera  |Marvipol | Warszawa| Ursynów   | 02-07-2025   |   |[Sengera](https://marvipol.pl/sengera-1/)    |
@@ -59,6 +59,8 @@ The collected data will be stored in Google BigQuery, visualized for insights, a
 |  19 | Osiedle Poematu  |Atal | Warszawa| Wawer   | 12-08-2025   |   |[Osiedle Poematu](https://osiedlepoematu.pl)    |
 
 The Start Date and End Date refer to the period during which the data was collected, not the actual start or end of the sales process.
+
+* Finished scaraping earlier because of unadrressed technical difficulties
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
