@@ -19,6 +19,7 @@ from .real_estate_prices.spiders.sengera import SengeraSpider
 from .real_estate_prices.spiders.xyz_place import XYZSpider
 from .real_estate_prices.spiders.zakatek_harmonia import ZakatekHarmoniaSpider
 from .real_estate_prices.spiders.osiedle_poematu import OsiedlePoematuSpider
+from .real_estate_prices.spiders.verdea_zoliborz import VerdeaZoliborzSpider
 
 def real_estate_scraper(event, contxt):
     
@@ -34,15 +35,16 @@ def real_estate_scraper(event, contxt):
     process.crawl(DomHyggeTwinSpider)
     process.crawl(OvalSkySpider)
     process.crawl(ChmielnaDuoSpider)
-    process.crawl(ParkSkandynawiaSpider) 
-    process.crawl(SadybaSpotSpider)   
+    process.crawl(ParkSkandynawiaSpider)
+    process.crawl(SadybaSpotSpider)
     process.crawl(BukowinskaMokotowSpider)
     process.crawl(HiMokotowSpider)
     process.crawl(Lopuszanska47Spider)
-    process.crawl(SenzaSpider)  
-    process.crawl(SengeraSpider)    
+    process.crawl(SenzaSpider)
+    process.crawl(SengeraSpider)
     process.crawl(XYZSpider)
     process.crawl(ZakatekHarmoniaSpider)
-    process.crawl(OsiedlePoematuSpider)       
+    process.crawl(OsiedlePoematuSpider)
+    process.crawl(VerdeaZoliborzSpider) 
 
     process.start()

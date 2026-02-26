@@ -57,6 +57,7 @@ The collected data will be stored in Google BigQuery, visualized for insights, a
 |  17 | XYZ Place  |Matexi Polska | Warszawa| Włochy   | 07-07-2025   |   |[XYZ-Place](https://matexipolska.pl/warszawa/xyz-place)    |
 |  18 | Zakątek Harmonia  |Atal | Warszawa| Białołęka   | 10-08-2025   |   |[Zakątek Harmonia](https://zakatekharmonia.pl/)    |
 |  19 | Osiedle Poematu  |Atal | Warszawa| Wawer   | 12-08-2025   |   |[Osiedle Poematu](https://osiedlepoematu.pl)    |
+|  20 | Verdea Żoliborz  |Matexi Polska | Warszawa| Żoliborz   | 26-02-2026   |   |[Verdea Żoliborz](https://matexipolska.pl/warszawa/verdea-zoliborz)    |
 
 The Start Date and End Date refer to the period during which the data was collected, not the actual start or end of the sales process.
 
@@ -174,6 +175,7 @@ Cooming soon
 │                 ├── senza.py
 │                 ├── stacja_wola.py
 │                 ├── stilla.py
+│                 ├── verdea_zoliborz.py
 │                 ├── xyz_place.py
 │                 ├── zakatek_harmonia.py
 │                 └── zelazna_54.py                
