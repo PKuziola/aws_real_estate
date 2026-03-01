@@ -59,6 +59,7 @@ The collected data will be stored in Google BigQuery, visualized for insights, a
 |  19 | Osiedle Poematu  |Atal | Warszawa| Wawer   | 12-08-2025   |   |[Osiedle Poematu](https://osiedlepoematu.pl)    |
 |  20 | Verdea Żoliborz  |Matexi Polska | Warszawa| Żoliborz   | 26-02-2026   |   |[Verdea Żoliborz](https://matexipolska.pl/warszawa/verdea-zoliborz)    |
 |  21 | Apartamenty M7  |Archicom | Warszawa| Wola   | 28-02-2026   |   |[Apartamenty M7](https://m7apartamenty.pl)    |
+|  22 | NOHO ONE  |NOHO Investment | Warszawa| Wola   | 01-03-2026   |   |[NOHO ONE](https://noho-one.com/)    |
 
 The Start Date and End Date refer to the period during which the data was collected, not the actual start or end of the sales process.
 
@@ -169,6 +170,7 @@ Cooming soon
 │                 ├── lopuszanska_47.py
 │                 ├── modern_mokotow.py
 │                 ├── murapol_urcity.py
+│                 ├── noho_one.py
 │                 ├── osiedle_poematu.py
 │                 ├── oval_sky.py
 │                 ├── park_skandynawia.py

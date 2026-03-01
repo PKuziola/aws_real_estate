@@ -21,6 +21,7 @@ from .real_estate_prices.spiders.zakatek_harmonia import ZakatekHarmoniaSpider
 from .real_estate_prices.spiders.osiedle_poematu import OsiedlePoematuSpider
 from .real_estate_prices.spiders.verdea_zoliborz import VerdeaZoliborzSpider
 from .real_estate_prices.spiders.apartamenty_m7 import ApartamentyM7Spider
+from .real_estate_prices.spiders.noho_one import NohoOneSpider
 
 def real_estate_scraper(event, contxt):
     
@@ -48,5 +49,6 @@ def real_estate_scraper(event, contxt):
     process.crawl(OsiedlePoematuSpider)
     process.crawl(VerdeaZoliborzSpider)
     process.crawl(ApartamentyM7Spider)
+    process.crawl(NohoOneSpider)
 
     process.start()
