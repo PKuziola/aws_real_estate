@@ -2,53 +2,16 @@ import os
 import sys
 from scrapy.crawler import CrawlerProcess
 from scrapy.utils.project import get_project_settings
-from .real_estate_prices.spiders.modern_mokotow import ModernMokotowSpider 
-from .real_estate_prices.spiders.stacja_wola import StacjaWolaSpider 
-from .real_estate_prices.spiders.zelazna_54 import Zelazna54Spider
-from .real_estate_prices.spiders.murapol_urcity import MurapolUrcitySpider
-from .real_estate_prices.spiders.dom_hygge_twin import DomHyggeTwinSpider
-from .real_estate_prices.spiders.oval_sky import OvalSkySpider
-from .real_estate_prices.spiders.chmielna_duo import ChmielnaDuoSpider
-from .real_estate_prices.spiders.park_skandynawia import ParkSkandynawiaSpider
-from .real_estate_prices.spiders.sadyba_spot import SadybaSpotSpider
-from .real_estate_prices.spiders.bukowinska_mokotow import BukowinskaMokotowSpider
-from .real_estate_prices.spiders.hi_mokotow import HiMokotowSpider
-from .real_estate_prices.spiders.lopuszanska_47 import Lopuszanska47Spider
-from .real_estate_prices.spiders.senza import SenzaSpider
-from .real_estate_prices.spiders.sengera import SengeraSpider
-from .real_estate_prices.spiders.xyz_place import XYZSpider
-from .real_estate_prices.spiders.zakatek_harmonia import ZakatekHarmoniaSpider
-from .real_estate_prices.spiders.osiedle_poematu import OsiedlePoematuSpider
-from .real_estate_prices.spiders.verdea_zoliborz import VerdeaZoliborzSpider
-from .real_estate_prices.spiders.apartamenty_m7 import ApartamentyM7Spider
-from .real_estate_prices.spiders.noho_one import NohoOneSpider
 
-def real_estate_scraper(event, contxt):
-    
+def real_estate_scraper(event, _context):
     sys.path.append('/var/task')
     os.environ['SCRAPY_SETTINGS_MODULE'] = 'source.real_estate_prices.settings'
-    
-    process = CrawlerProcess(get_project_settings())
 
-    process.crawl(ModernMokotowSpider)
-    process.crawl(StacjaWolaSpider)
-    process.crawl(Zelazna54Spider)
-    process.crawl(MurapolUrcitySpider)
-    process.crawl(DomHyggeTwinSpider)
-    process.crawl(OvalSkySpider)
-    process.crawl(ChmielnaDuoSpider)
-    process.crawl(ParkSkandynawiaSpider)
-    process.crawl(SadybaSpotSpider)
-    process.crawl(BukowinskaMokotowSpider)
-    process.crawl(HiMokotowSpider)
-    process.crawl(Lopuszanska47Spider)
-    process.crawl(SenzaSpider)
-    process.crawl(SengeraSpider)
-    process.crawl(XYZSpider)
-    process.crawl(ZakatekHarmoniaSpider)
-    process.crawl(OsiedlePoematuSpider)
-    process.crawl(VerdeaZoliborzSpider)
-    process.crawl(ApartamentyM7Spider)
-    process.crawl(NohoOneSpider)
+    settings = get_project_settings()
+    process = CrawlerProcess(settings)
+
+    for spider_name in process.spider_loader.list():
+        process.crawl(spider_name)
+        print('pies')
 
     process.start()
