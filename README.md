@@ -61,6 +61,7 @@ The collected data will be stored in Google BigQuery, visualized for insights, a
 |  21 | Apartamenty M7  |Archicom | Warszawa| Wola   | 28-02-2026   |   |[Apartamenty M7](https://m7apartamenty.pl)    |
 |  22 | NOHO ONE  |NOHO Investment | Warszawa| Wola   | 01-03-2026   |   |[NOHO ONE](https://noho-one.com/)    |
 |  24 | ReVola  |Alides | Warszawa| Wola   | 18-04-2026   |   |[ReVola](https://revola.pl/)    |
+|  25 | Drucianka Wschodnia  |SGI | Warszawa| Praga Północa   | 19-04-2026   |   |[Drucianka Wschodnia](https://www.sgi.pl/warszawa/drucianka-wschodnia/)    |
 
 The Start Date and End Date refer to the period during which the data was collected, not the actual start or end of the sales process.
 
@@ -166,6 +167,7 @@ Cooming soon
 │                 ├── bukowinska_mokotow.py
 │                 ├── chmielna_duo.py
 │                 ├── dom_hygge_twin.py
+│                 ├── drucianka_wschodnia.py
 │                 ├── hi_mokotow.py
 │                 ├── kolej_na_19.py
 │                 ├── lopuszanska_47.py
