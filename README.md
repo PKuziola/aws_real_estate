@@ -162,6 +162,8 @@ Cooming soon
 │             ├── middlewares.py
 │             ├── pipelines.py
 │             ├── settings.py
+│             └── archived_spiders
+│                 └── kolej_na_19.py
 │             └── spiders
 │                 ├── __init__.py
 │                 ├── aleje_138.py
@@ -171,7 +173,6 @@ Cooming soon
 │                 ├── dom_hygge_twin.py
 │                 ├── drucianka_wschodnia.py
 │                 ├── hi_mokotow.py
-│                 ├── kolej_na_19.py
 │                 ├── lopuszanska_47.py
 │                 ├── modern_mokotow.py
 │                 ├── murapol_urcity.py
