@@ -62,7 +62,7 @@ The collected data will be stored in Google BigQuery, visualized for insights, a
 |  22 | NOHO ONE  |NOHO Investment | Warszawa| Wola   | 01-03-2026   |   |[NOHO ONE](https://noho-one.com/)    |
 |  24 | ReVola  |Alides | Warszawa| Wola   | 18-04-2026   |   |[ReVola](https://revola.pl/)    |
 |  25 | Drucianka Wschodnia  |SGI | Warszawa| Praga Północna   | 19-04-2026   |   |[Drucianka Wschodnia](https://www.sgi.pl/warszawa/drucianka-wschodnia/)    |
-|  25 | Aleje 138  |Marvipol | Warszawa| Ochota   | 29-04-2026   |   |[Aleje 138](https://marvipol.pl/aleje-138/)    |
+|  25 | Aleje 138  |Marvipol | Warszawa| Ochota   | 30-04-2026   |   |[Aleje 138](https://marvipol.pl/aleje-138/)    |
 
 The Start Date and End Date refer to the period during which the data was collected, not the actual start or end of the sales process.
 
