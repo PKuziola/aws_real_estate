@@ -122,7 +122,7 @@ bash image_update.sh
 1. Create AWS repository & AWS Lambda function, video below:<br>
 [![Watch on YouTube](https://img.youtube.com/vi/XES3gXg13KE/0.jpg)](https://youtu.be/XES3gXg13KE?si=jA_Ay0IE1NN1GJTb&t=576)
 
-2. In AWS Lambda configuration setup Memory to be 512 MB & Timeout 5 minutes, default timeout value is 3 seconds and it makes function break.
+2. In AWS Lambda configuration setup Memory to be 512 MB & Timeout 15 minutes, default timeout value is 3 seconds and it makes function break.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
